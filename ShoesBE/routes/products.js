@@ -18,7 +18,7 @@ app.use(cors({ origin: '*', credentials: true }))
 app.use(allowCrossDomain)
 
 route.post('/api/products/create', ProductsController.createProduct)
-route.get('/api/products/allProducts', ProductsController.allProducts)
+route.get('/api/products/allProducts', ProductsController.getAllProducts)
 route.get('/api/products/getProductById/:productId', ProductsController.getProductById)
 route.delete('/api/products/deleteProductById/:productId', ProductsController.deleteProductById)
 route.patch('/api/products/editProduct/:productId', ProductsController.updateProductById)
