@@ -4,7 +4,7 @@ const ProductRoute = require("./routes/products")
 const bodyParser = require('body-parser')
 
 const connection_string =
-  "mongodb+srv://admin:1111@cluster0.i2eye5b.mongodb.net/test";
+  "mongodb+srv://admin:1111@cluster0.bzjgkxi.mongodb.net/test";
 
 mongoose.connect(connection_string,{
   useNewUrlParser: true,
